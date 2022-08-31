@@ -1,0 +1,38 @@
+  body:Column(
+  
+  
+  mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+      
+      
+      SizedBox(height: 20,width: 20,),
+
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Image.network('https://super.abril.com.br/wp-content/uploads/2018/07/52d0469d865be2752d0003a9emperor-cold_hg.jpeg',width: 400,height: 400,)
+          ],
+        ),
+        Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+      Image.network('https://s4.static.brasilescola.uol.com.br/img/2019/09/panda.jpg',width: 400,height: 400,)
+        ],
+        ),
+        Row(
+         mainAxisAlignment: MainAxisAlignment.center,
+         children: [
+    //       Image.network("https://static.vecteezy.com/ti/fotos-gratis/p2/706252-adulto-com-bebe-leao-filhote-na-africa-do-sul-foto.jpg",width: 400,height: 400)
+         ]),
+           Row(
+         mainAxisAlignment: MainAxisAlignment.center,
+         children: [
+    //       Image.network("https://static.vecteezy.com/ti/fotos-gratis/p2/706252-adulto-com-bebe-leao-filhote-na-africa-do-sul-foto.jpg",width: 400,height: 400)
+         ]),
+          Center(
+         child: _wdOpcoes.elementAt(_selectIndex)),
+        
+     
+    
+      ],
+    ),
